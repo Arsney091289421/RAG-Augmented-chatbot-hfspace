@@ -13,7 +13,7 @@ It is intended as the deployment companion for the main project.
 ## Live Demo
 You can try the chatbot live on Hugging Face Spaces:  
 
-[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-spaces-lg.svg)](https://huggingface.co/spaces/Daniel192341/RAG-Augmented-chatbot-hfspace)
+[![Open In Spaces](https://img.shields.io/badge/🤗%20Open%20in%20Spaces-blue?logo=huggingface)](https://huggingface.co/spaces/Daniel192341/RAG-Augmented-chatbot-hfspace)
 
 ---
 
