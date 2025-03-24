@@ -1,1 +1,10 @@
-huggingface_hub==0.25.2
+sentence-transformers==3.4.1
+numpy
+faiss-cpu
+flask
+gunicorn
+beautifulsoup4
+scikit-learn
+openai
+python-dotenv
+gradio
