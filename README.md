@@ -1,18 +1,39 @@
+# RAG-Augmented Chatbot — Hugging Face Space Source
+
+## Project Introduction
+This repository contains the **source code for deploying the RAG-augmented chatbot on Hugging Face Spaces**.  
+The chatbot retrieves content from FAISS indexes and answers user questions using the OpenAI Chat API.  
+It is intended as the deployment companion for the main project.
+
+> The main project repository (with Docker setup and full frontend) is here:  
+[Main RAG-Augmented Chatbot Repository](https://github.com/Arsney091289421/RAG-Augmented-chatbot)
+
 ---
-title: RAG-Augmented-chatbot-hfspace
-emoji: 🤖
-colorFrom: pink
-colorTo: purple
-sdk: gradio
-sdk_version: "4.20.0"
-app_file: app_gradio.py
-pinned: false
+
+## Live Demo
+You can try the chatbot live on Hugging Face Spaces:  
+
+[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-spaces-lg.svg)](https://huggingface.co/spaces/Daniel192341/RAG-Augmented-chatbot-hfspace)
+
 ---
 
-# RAG Chatbot (scikit-learn + HuggingFace)
+## Running Locally (optional)
+If you want to test this HF Space repo locally:  
 
-This chatbot answers questions **ONLY** based on retrieved documentation from:
-- [Scikit-learn documentation](https://scikit-learn.org/stable/)
-- [Hugging Face Transformers GitHub](https://github.com/huggingface/transformers)
+```bash
+git clone https://github.com/Arsney091289421/RAG-Augmented-chatbot-hfspace.git
+cd RAG-Augmented-chatbot-hfspace
+pip install -r requirements.txt
+```
+> **Create a `.env` file with your `OPENAI_API_KEY` before running.**  
 
-Check out the configuration reference at [Spaces Config Reference](https://huggingface.co/docs/hub/spaces-config-reference)
+Then run:
+```bash
+python app_gradio.py
+```
+
+---
+
+## License
+MIT License
+
