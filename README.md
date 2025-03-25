@@ -25,7 +25,15 @@ git clone https://github.com/Arsney091289421/RAG-Augmented-chatbot-hfspace.git
 cd RAG-Augmented-chatbot-hfspace
 pip install -r requirements.txt
 ```
-> **Create a `.env` file with your `OPENAI_API_KEY` before running.**  
+Set environment variables
+Copy the example file and create your own `.env`:
+```bash
+cp .env.example .env
+```
+Then edit `.env` and add your OpenAI API Key:
+```
+OPENAI_API_KEY=your_openai_api_key_here
+```
 
 Then run:
 ```bash
