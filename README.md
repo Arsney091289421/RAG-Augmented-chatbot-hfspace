@@ -17,7 +17,7 @@ You can try the chatbot live on Hugging Face Spaces:
 
 ---
 
-## Running Locally (optional)
+## Running Locally 
 If you want to test this HF Space repo locally:  
 
 ```bash
