@@ -10,7 +10,7 @@ It is intended as the deployment companion for the main project.
 
 ---
 
-## Live Demo
+## Live Demo (currently disabled due to OpenAI API misuse concerns)
 You can try the chatbot live on Hugging Face Spaces:  
 
 [![Open In Spaces](https://img.shields.io/badge/🤗%20Open%20in%20Spaces-blue?logo=huggingface)](https://huggingface.co/spaces/Daniel192341/RAG-Augmented-chatbot-hfspace)
