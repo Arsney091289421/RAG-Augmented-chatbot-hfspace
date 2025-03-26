@@ -14,10 +14,6 @@ It is intended as the deployment companion for the main project.
 
 _(Demo temporarily disabled due to unexpected OpenAI API quota overages caused by delayed enforcement on their platform. For a fully reproducible experience, please refer to the local deployment instructions below.)_
 
-You can try the chatbot live on Hugging Face Spaces:  
-
-[![Open In Spaces](https://img.shields.io/badge/🤗%20Open%20in%20Spaces-blue?logo=huggingface)](https://huggingface.co/spaces/Daniel192341/RAG-Augmented-chatbot-hfspace)
-
 ---
 
 ## Running Locally 
