@@ -17,6 +17,21 @@ It is intended as the deployment companion for the main project.
 _(This demo is available on Hugging Face Spaces. Limited usage: 10 requests per session / 100 total per day.)_
 
 
+---
+
+### Rate Limiting (to protect OpenAI API)
+
+This demo includes a built-in rate limiting mechanism to prevent abuse and protect OpenAI API usage:
+
+- **Per session:** max **10** requests per day  
+- **Global total:** max **100** requests per day across all users
+
+All limits reset **automatically every 24 hours**, and are stored using **Redis Cloud** with key expiry (`EXPIRE`) to ensure cleanup.
+
+**Session-level tracking** is implemented via Gradio’s `State` component, allowing browser-based user isolation.
+
+---
+
 ## Running Locally 
 If you want to test this HF Space repo locally:  
 
