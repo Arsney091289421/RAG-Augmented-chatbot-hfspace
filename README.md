@@ -11,13 +11,28 @@ It is intended as the deployment companion for the main project.
 ---
 
 ## Live Demo
-You can try the chatbot live on Hugging Face Spaces:  
 
-[![Open In Spaces](https://img.shields.io/badge/🤗%20Open%20in%20Spaces-blue?logo=huggingface)](https://huggingface.co/spaces/Daniel192341/RAG-Augmented-chatbot-hfspace)
+[![Live Demo](https://img.shields.io/badge/%F0%9F%9A%80%20Live%20Demo-blue?logo=gradio)](https://huggingface.co/spaces/Daniel192341/RAG-Augmented-chatbot-hfspace)
+
+_(This demo is available on Hugging Face Spaces. Limited usage: 10 requests per session / 100 total per day.)_
+
 
 ---
 
-## Running Locally (optional)
+### Rate Limiting (to protect OpenAI API)
+
+This demo includes a built-in rate limiting mechanism to prevent abuse and protect OpenAI API usage:
+
+- **Per session:** max **10** requests per day  
+- **Global total:** max **100** requests per day across all users
+
+All limits reset **automatically every 24 hours**, and are stored using **Redis Cloud** with key expiry (`EXPIRE`) to ensure cleanup.
+
+**Session-level tracking** is implemented via Gradio’s `State` component, allowing browser-based user isolation.
+
+---
+
+## Running Locally 
 If you want to test this HF Space repo locally:  
 
 ```bash
