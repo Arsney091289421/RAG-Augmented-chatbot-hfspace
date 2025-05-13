@@ -14,7 +14,7 @@ It is intended as the deployment companion for the main project.
 
 [![Live Demo](https://img.shields.io/badge/%F0%9F%9A%80%20Live%20Demo-blue?logo=gradio)](https://huggingface.co/spaces/Daniel192341/RAG-Augmented-chatbot-hfspace)
 
-_(This demo is available on Hugging Face Spaces. Limited usage: 5 requests per session / 50 total per day.)_
+_(This demo is available on Hugging Face Spaces. Limited usage: 10 requests per session / 100 total per day.)_
 
 
 ## Running Locally 
